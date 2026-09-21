@@ -1,4 +1,4 @@
-const CACHE = 'sarah-work-v03-pwa-4';
+const CACHE = 'sarah-work-v03-pwa-8';
 const ASSETS = ['index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 const url = path => new URL(path, self.registration.scope).href;
 self.addEventListener('install', event => {
